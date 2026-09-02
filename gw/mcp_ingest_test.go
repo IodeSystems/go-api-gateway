@@ -12,6 +12,7 @@ import (
 
 	"github.com/mark3labs/mcp-go/mcp"
 	mcpserver "github.com/mark3labs/mcp-go/server"
+	"github.com/mark3labs/mcp-go/server/servertest"
 )
 
 // newTestMCPServer builds an in-process MCP server exposing two tools
@@ -42,7 +43,7 @@ func newTestMCPServer(t *testing.T) *httptest.Server {
 			return mcp.NewToolResultText(fmt.Sprintf("greet(%v, tone=%q)", args["name"], tone)), nil
 		},
 	)
-	srv := mcpserver.NewTestStreamableHTTPServer(s)
+	srv := servertest.NewTestStreamableHTTPServer(s)
 	t.Cleanup(srv.Close)
 	return srv
 }

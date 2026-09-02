@@ -180,7 +180,7 @@ func renderOpenAPIUnion(t *Type) *openapi3.SchemaRef {
 	if t.DiscriminatorProperty != "" {
 		d := &openapi3.Discriminator{PropertyName: t.DiscriminatorProperty}
 		if len(t.DiscriminatorMapping) > 0 {
-			d.Mapping = openapi3.StringMap[openapi3.MappingRef]{}
+			d.Mapping = map[string]openapi3.MappingRef{}
 			for k, name := range t.DiscriminatorMapping {
 				d.Mapping[k] = openapi3.MappingRef{Ref: "#/components/schemas/" + name}
 			}
