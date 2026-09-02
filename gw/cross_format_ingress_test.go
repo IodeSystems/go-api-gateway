@@ -17,8 +17,8 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
-	"github.com/iodesystems/gwag/gw/ir"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // TestCrossFormatIngressMatrix asserts the (ingress × source) matrix

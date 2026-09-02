@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // recMetrics records the four metric calls backpressureMiddleware

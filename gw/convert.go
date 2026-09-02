@@ -7,7 +7,7 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 	"google.golang.org/protobuf/types/dynamicpb"
 )
 

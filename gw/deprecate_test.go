@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/iodesystems/gwag/gw/ir"
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
+	"github.com/iodesystems/gwag/v2/gw/ir"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
 )
 
 // Manual deprecation (plan §5): operator-driven via Deprecate /

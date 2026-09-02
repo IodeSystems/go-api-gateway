@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // slotKind tags which registration form occupies a slot. Plan §4's

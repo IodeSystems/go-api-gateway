@@ -235,7 +235,7 @@ const file_greeter_proto_rawDesc = "" +
 	"\x0eGreeterService\x12<\n" +
 	"\x05Hello\x12\x18.greeter.v1.HelloRequest\x1a\x19.greeter.v1.HelloResponse\x12@\n" +
 	"\tGreetings\x12\x1b.greeter.v1.GreetingsFilter\x1a\x14.greeter.v1.Greeting0\x01\x12?\n" +
-	"\x04Echo\x12\x18.greeter.v1.HelloRequest\x1a\x19.greeter.v1.HelloResponse(\x010\x01BEZCgithub.com/iodesystems/gwag/examples/multi/gen/greeter/v1;greeterv1b\x06proto3"
+	"\x04Echo\x12\x18.greeter.v1.HelloRequest\x1a\x19.greeter.v1.HelloResponse(\x010\x01BHZFgithub.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1;greeterv1b\x06proto3"
 
 var (
 	file_greeter_proto_rawDescOnce sync.Once

@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iodesystems/gwag/gw/ir"
-	psv1 "github.com/iodesystems/gwag/gw/proto/ps/v1"
+	"github.com/iodesystems/gwag/v2/gw/ir"
+	psv1 "github.com/iodesystems/gwag/v2/gw/proto/ps/v1"
 )
 
 // TestPubSub_RoundTrip exercises the gateway-bundled gwag.ps.v1.PubSub

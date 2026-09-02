@@ -245,7 +245,7 @@ const file_gw_proto_pubsubauth_v1_pubsubauth_proto_rawDesc = "" +
 	"\x1cPUBSUB_AUTH_CODE_UNAVAILABLE\x10\x03\x12#\n" +
 	"\x1fPUBSUB_AUTH_CODE_NOT_CONFIGURED\x10\x042r\n" +
 	"\x10PubSubAuthorizer\x12^\n" +
-	"\tAuthorize\x12'.gateway.pubsubauth.v1.AuthorizeRequest\x1a(.gateway.pubsubauth.v1.AuthorizeResponseBAZ?github.com/iodesystems/gwag/gw/proto/pubsubauth/v1;pubsubauthv1b\x06proto3"
+	"\tAuthorize\x12'.gateway.pubsubauth.v1.AuthorizeRequest\x1a(.gateway.pubsubauth.v1.AuthorizeResponseBDZBgithub.com/iodesystems/gwag/v2/gw/proto/pubsubauth/v1;pubsubauthv1b\x06proto3"
 
 var (
 	file_gw_proto_pubsubauth_v1_pubsubauth_proto_rawDescOnce sync.Once

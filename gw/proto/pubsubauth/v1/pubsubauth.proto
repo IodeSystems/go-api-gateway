@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gateway.pubsubauth.v1;
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/pubsubauth/v1;pubsubauthv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/pubsubauth/v1;pubsubauthv1";
 
 // PubSubAuthorizer is the optional delegate the gateway calls when a
 // pub/sub channel is governed by tier `delegate+hmac`

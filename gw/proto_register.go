@@ -1,7 +1,7 @@
 package gateway
 
 import (
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // registerProtoDispatchersLocked walks every proto pool matching

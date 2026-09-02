@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/iodesystems/gwag/bench/cmd/traffic/runner"
+	"github.com/iodesystems/gwag/v2/bench/cmd/traffic/runner"
 )
 
 // Sweep is the wire shape one `perf run` invocation produces. The

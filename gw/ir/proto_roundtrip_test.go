@@ -3,9 +3,9 @@ package ir
 import (
 	"testing"
 
-	authv1 "github.com/iodesystems/gwag/examples/auth/gen/auth/v1"
-	userv1 "github.com/iodesystems/gwag/examples/auth/gen/user/v1"
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
+	authv1 "github.com/iodesystems/gwag/v2/examples/auth/gen/auth/v1"
+	userv1 "github.com/iodesystems/gwag/v2/examples/auth/gen/user/v1"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
 )
 
 // TestProtoRoundtrip verifies that ingest → IR → render via the

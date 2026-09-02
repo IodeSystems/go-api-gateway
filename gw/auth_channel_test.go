@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // TestSubjectMatchesPattern pins NATS-style wildcard matching: `.`

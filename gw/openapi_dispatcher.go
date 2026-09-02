@@ -9,7 +9,7 @@ import (
 	"github.com/IodeSystems/graphql-go/v2/language/ast"
 	"github.com/getkin/kin-openapi/openapi3"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // openAPIDispatcher implements ir.Dispatcher for one OpenAPI source

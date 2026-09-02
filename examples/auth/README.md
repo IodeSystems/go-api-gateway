@@ -68,8 +68,8 @@ request context — multiple RPCs in one GraphQL query share the result.
 
 ```
 protoc -I protos \
-  --go_out=. --go_opt=module=github.com/iodesystems/gwag/examples/auth \
-  --go-grpc_out=. --go-grpc_opt=module=github.com/iodesystems/gwag/examples/auth \
+  --go_out=. --go_opt=module=github.com/iodesystems/gwag/v2/examples/auth \
+  --go-grpc_out=. --go-grpc_opt=module=github.com/iodesystems/gwag/v2/examples/auth \
   protos/auth.proto protos/user.proto
 ```
 

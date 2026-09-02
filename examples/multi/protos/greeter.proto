@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greeter.v1;
 
-option go_package = "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1;greeterv1";
+option go_package = "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1;greeterv1";
 
 // GreeterService demonstrates the three rpc shapes the gateway
 // supports: unary (surfaces as a GraphQL query), server-streaming

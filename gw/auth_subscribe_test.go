@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
 )
 
 // TestVerifySubscribe_LegacyTokenStillVerifies covers the back-compat

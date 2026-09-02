@@ -197,7 +197,7 @@ import (
     _ "embed"
     "log"
 
-    "github.com/iodesystems/gwag/controlclient"
+    "github.com/iodesystems/gwag/v2/controlclient"
 )
 
 //go:embed weather.proto

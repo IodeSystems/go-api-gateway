@@ -4,7 +4,7 @@ package gwag.ps.v1;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/ps/v1;psv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/ps/v1;psv1";
 
 // ChannelBinding is the proto-declarative payload-type binding the
 // gateway extracts at slot bake. A message whose options carry

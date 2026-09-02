@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gateway.adminevents.v1;
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/adminevents/v1;admineventsv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/adminevents/v1;admineventsv1";
 
 // AdminEvents exposes gateway-internal admin events as a
 // server-streaming RPC. Subscriptions are NATS-backed (per the

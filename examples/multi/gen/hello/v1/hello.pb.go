@@ -123,7 +123,7 @@ const file_hello_proto_rawDesc = "" +
 	"\rHelloResponse\x12\x1a\n" +
 	"\bgreeting\x18\x01 \x01(\tR\bgreeting2H\n" +
 	"\fHelloService\x128\n" +
-	"\x05Hello\x12\x16.hello.v1.HelloRequest\x1a\x17.hello.v1.HelloResponseBAZ?github.com/iodesystems/gwag/examples/multi/gen/hello/v1;hellov1b\x06proto3"
+	"\x05Hello\x12\x16.hello.v1.HelloRequest\x1a\x17.hello.v1.HelloResponseBDZBgithub.com/iodesystems/gwag/v2/examples/multi/gen/hello/v1;hellov1b\x06proto3"
 
 var (
 	file_hello_proto_rawDescOnce sync.Once

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	authv1 "github.com/iodesystems/gwag/examples/auth/gen/auth/v1"
+	authv1 "github.com/iodesystems/gwag/v2/examples/auth/gen/auth/v1"
 )
 
 // inventoryTestGateway returns a fresh Gateway with the user/auth

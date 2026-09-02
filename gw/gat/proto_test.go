@@ -9,8 +9,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
-	"github.com/iodesystems/gwag/gw/gat"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
+	"github.com/iodesystems/gwag/v2/gw/gat"
 )
 
 // minimal greeter.proto for the gat ingest test. Self-contained so the

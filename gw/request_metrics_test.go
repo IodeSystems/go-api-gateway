@@ -13,7 +13,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
 )
 
 // requestMetricsRecorder captures RecordRequest observations so the

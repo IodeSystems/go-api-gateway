@@ -69,8 +69,8 @@ Dropped 1099 nodes (cum <= 0.80s)
      0.05s 0.031%  0.23%     58.90s 36.93%  net/http.serverHandler.ServeHTTP
      0.03s 0.019%  0.25%     58.85s 36.89%  net/http.(*ServeMux).ServeHTTP
      0.04s 0.025%  0.28%     57.84s 36.26%  net/http.HandlerFunc.ServeHTTP
-     0.41s  0.26%  0.53%     57.80s 36.24%  github.com/iodesystems/gwag/gw.(*Gateway).Handler.func1
-     0.36s  0.23%  0.76%     55.20s 34.61%  github.com/iodesystems/gwag/gw.(*Gateway).serveGraphQLJSON
+     0.41s  0.26%  0.53%     57.80s 36.24%  github.com/iodesystems/gwag/v2/gw.(*Gateway).Handler.func1
+     0.36s  0.23%  0.76%     55.20s 34.61%  github.com/iodesystems/gwag/v2/gw.(*Gateway).serveGraphQLJSON
      0.17s  0.11%  0.87%     46.83s 29.36%  github.com/IodeSystems/graphql-go.ExecutePlanAppend
      0.01s 0.0063%  0.87%     46.65s 29.25%  github.com/IodeSystems/graphql-go.ExecutePlanAppend.func1
      0.29s  0.18%  1.05%     46.60s 29.21%  github.com/IodeSystems/graphql-go.writePlannedSelection
@@ -91,8 +91,8 @@ Dropped 665 nodes (cum <= 740.52MB)
          0     0%  0.11% 112583.07MB 76.02%  net/http.(*ServeMux).ServeHTTP
          0     0%  0.11% 112583.07MB 76.02%  net/http.HandlerFunc.ServeHTTP
          0     0%  0.11% 112583.07MB 76.02%  net/http.serverHandler.ServeHTTP
- 2180.90MB  1.47%  1.59% 112396.71MB 75.89%  github.com/iodesystems/gwag/gw.(*Gateway).Handler.func1
-         0     0%  1.59% 106837.66MB 72.14%  github.com/iodesystems/gwag/gw.(*Gateway).serveGraphQLJSON
+ 2180.90MB  1.47%  1.59% 112396.71MB 75.89%  github.com/iodesystems/gwag/v2/gw.(*Gateway).Handler.func1
+         0     0%  1.59% 106837.66MB 72.14%  github.com/iodesystems/gwag/v2/gw.(*Gateway).serveGraphQLJSON
          0     0%  1.59% 91233.41MB 61.60%  github.com/IodeSystems/graphql-go.ExecutePlanAppend
          0     0%  1.59% 91232.91MB 61.60%  github.com/IodeSystems/graphql-go.ExecutePlanAppend.func1
   514.52MB  0.35%  1.93% 91232.91MB 61.60%  github.com/IodeSystems/graphql-go.writePlannedSelection
@@ -142,8 +142,8 @@ Dropped 1170 nodes (cum <= 0.92s)
      0.07s 0.038%  0.35%     65.91s 35.83%  net/http.serverHandler.ServeHTTP
      0.07s 0.038%  0.39%     65.84s 35.79%  net/http.(*ServeMux).ServeHTTP
      0.07s 0.038%  0.43%     64.99s 35.33%  net/http.HandlerFunc.ServeHTTP
-     0.38s  0.21%  0.64%     64.91s 35.29%  github.com/iodesystems/gwag/gw.(*Gateway).Handler.func1
-     0.26s  0.14%  0.78%     62.34s 33.89%  github.com/iodesystems/gwag/gw.(*Gateway).serveGraphQLJSON
+     0.38s  0.21%  0.64%     64.91s 35.29%  github.com/iodesystems/gwag/v2/gw.(*Gateway).Handler.func1
+     0.26s  0.14%  0.78%     62.34s 33.89%  github.com/iodesystems/gwag/v2/gw.(*Gateway).serveGraphQLJSON
      0.20s  0.11%  0.89%        54s 29.36%  github.com/IodeSystems/graphql-go.ExecutePlanAppend
      0.09s 0.049%  0.94%     53.78s 29.24%  github.com/IodeSystems/graphql-go.ExecutePlanAppend.func1
      0.45s  0.24%  1.18%     53.65s 29.17%  github.com/IodeSystems/graphql-go.writePlannedSelection
@@ -164,8 +164,8 @@ Dropped 604 nodes (cum <= 521.89MB)
          0     0%  0.12% 78136.61MB 74.86%  net/http.(*ServeMux).ServeHTTP
          0     0%  0.12% 78136.61MB 74.86%  net/http.HandlerFunc.ServeHTTP
          0     0%  0.12% 78136.61MB 74.86%  net/http.serverHandler.ServeHTTP
- 1564.29MB  1.50%  1.62% 78009.30MB 74.74%  github.com/iodesystems/gwag/gw.(*Gateway).Handler.func1
-         0     0%  1.62% 74040.40MB 70.93%  github.com/iodesystems/gwag/gw.(*Gateway).serveGraphQLJSON
+ 1564.29MB  1.50%  1.62% 78009.30MB 74.74%  github.com/iodesystems/gwag/v2/gw.(*Gateway).Handler.func1
+         0     0%  1.62% 74040.40MB 70.93%  github.com/iodesystems/gwag/v2/gw.(*Gateway).serveGraphQLJSON
          0     0%  1.62% 62779.20MB 60.15%  github.com/IodeSystems/graphql-go.ExecutePlanAppend
          0     0%  1.62% 62778.70MB 60.15%  github.com/IodeSystems/graphql-go.ExecutePlanAppend.func1
   374.02MB  0.36%  1.97% 62778.70MB 60.15%  github.com/IodeSystems/graphql-go.writePlannedSelection
@@ -215,8 +215,8 @@ Dropped 1188 nodes (cum <= 0.87s)
      0.05s 0.029%  0.25%     64.18s 37.04%  net/http.serverHandler.ServeHTTP
      0.05s 0.029%  0.28%     64.13s 37.01%  net/http.(*ServeMux).ServeHTTP
      0.07s  0.04%  0.32%     63.21s 36.48%  net/http.HandlerFunc.ServeHTTP
-     0.36s  0.21%  0.53%     63.13s 36.43%  github.com/iodesystems/gwag/gw.(*Gateway).Handler.func1
-     0.32s  0.18%  0.71%     59.83s 34.53%  github.com/iodesystems/gwag/gw.(*Gateway).serveGraphQLJSON
+     0.36s  0.21%  0.53%     63.13s 36.43%  github.com/iodesystems/gwag/v2/gw.(*Gateway).Handler.func1
+     0.32s  0.18%  0.71%     59.83s 34.53%  github.com/iodesystems/gwag/v2/gw.(*Gateway).serveGraphQLJSON
      0.20s  0.12%  0.83%     51.77s 29.87%  github.com/IodeSystems/graphql-go.ExecutePlanAppend
      0.04s 0.023%  0.85%     51.54s 29.74%  github.com/IodeSystems/graphql-go.ExecutePlanAppend.func1
      0.34s   0.2%  1.04%     51.49s 29.71%  github.com/IodeSystems/graphql-go.writePlannedSelection
@@ -237,8 +237,8 @@ Dropped 477 nodes (cum <= 253.07MB)
          0     0%  0.12% 36550.74MB 72.21%  net/http.(*ServeMux).ServeHTTP
          0     0%  0.12% 36550.74MB 72.21%  net/http.HandlerFunc.ServeHTTP
          0     0%  0.12% 36550.74MB 72.21%  net/http.serverHandler.ServeHTTP
-  805.65MB  1.59%  1.71% 36489.37MB 72.09%  github.com/iodesystems/gwag/gw.(*Gateway).Handler.func1
-         0     0%  1.71% 34446.67MB 68.06%  github.com/iodesystems/gwag/gw.(*Gateway).serveGraphQLJSON
+  805.65MB  1.59%  1.71% 36489.37MB 72.09%  github.com/iodesystems/gwag/v2/gw.(*Gateway).Handler.func1
+         0     0%  1.71% 34446.67MB 68.06%  github.com/iodesystems/gwag/v2/gw.(*Gateway).serveGraphQLJSON
          0     0%  1.71% 28851.62MB 57.00%  github.com/IodeSystems/graphql-go.ExecutePlanAppend
          0     0%  1.71% 28851.62MB 57.00%  github.com/IodeSystems/graphql-go.ExecutePlanAppend.func1
   189.51MB  0.37%  2.08% 28851.62MB 57.00%  github.com/IodeSystems/graphql-go.writePlannedSelection

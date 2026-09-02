@@ -5,7 +5,7 @@ import (
 
 	"github.com/IodeSystems/graphql-go/v2/language/ast"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // openAPIWalker projects an upstream JSON response onto the local

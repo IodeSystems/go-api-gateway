@@ -5,7 +5,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 	"google.golang.org/grpc/metadata"
 )
 

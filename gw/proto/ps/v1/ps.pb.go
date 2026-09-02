@@ -304,7 +304,7 @@ const file_gw_proto_ps_v1_ps_proto_rawDesc = "" +
 	"\x02ts\x18\x04 \x01(\x03R\x02ts2t\n" +
 	"\x06PubSub\x126\n" +
 	"\x03Pub\x12\x16.gwag.ps.v1.PubRequest\x1a\x17.gwag.ps.v1.PubResponse\x122\n" +
-	"\x03Sub\x12\x16.gwag.ps.v1.SubRequest\x1a\x11.gwag.ps.v1.Event0\x01B1Z/github.com/iodesystems/gwag/gw/proto/ps/v1;psv1b\x06proto3"
+	"\x03Sub\x12\x16.gwag.ps.v1.SubRequest\x1a\x11.gwag.ps.v1.Event0\x01B4Z2github.com/iodesystems/gwag/v2/gw/proto/ps/v1;psv1b\x06proto3"
 
 var (
 	file_gw_proto_ps_v1_ps_proto_rawDescOnce sync.Once

@@ -10,8 +10,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
 )
 
 // TestMaxConcurrency_PerService_RejectsOnOverflow verifies that the

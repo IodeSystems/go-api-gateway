@@ -190,7 +190,7 @@ of a [huma](https://huma.rocks/) service, no NATS, no cluster.
 REST + GraphQL + gRPC on one port:
 
 ```go
-import "github.com/iodesystems/gwag/gw/gat"
+import "github.com/iodesystems/gwag/v2/gw/gat"
 
 g, _ := gat.New()
 gat.Register(api, g, huma.Operation{ /* ... */ }, listProjects) // drop-in for huma.Register

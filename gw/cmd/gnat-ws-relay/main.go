@@ -22,7 +22,7 @@ import (
 
 	"github.com/nats-io/nats.go"
 
-	"github.com/iodesystems/gwag/gw/relay"
+	"github.com/iodesystems/gwag/v2/gw/relay"
 )
 
 func main() {

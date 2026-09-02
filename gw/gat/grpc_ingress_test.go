@@ -20,7 +20,7 @@ import (
 	"google.golang.org/protobuf/types/dynamicpb"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iodesystems/gwag/gw/gat"
+	"github.com/iodesystems/gwag/v2/gw/gat"
 )
 
 func TestGRPCIngress_ConnectClient(t *testing.T) {

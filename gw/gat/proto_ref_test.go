@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/iodesystems/gwag/gw/gat"
+	"github.com/iodesystems/gwag/v2/gw/gat"
 )
 
 // greeterProtoSrcWithRef carries `@ref` source-of-truth markers as

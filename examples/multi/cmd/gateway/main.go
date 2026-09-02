@@ -36,9 +36,9 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	gateway "github.com/iodesystems/gwag/gw"
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
-	gwui "github.com/iodesystems/gwag/ui"
+	gateway "github.com/iodesystems/gwag/v2/gw"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
+	gwui "github.com/iodesystems/gwag/v2/ui"
 )
 
 type stringList []string

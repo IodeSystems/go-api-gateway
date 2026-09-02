@@ -63,8 +63,8 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	gateway "github.com/iodesystems/gwag/gw"
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
+	gateway "github.com/iodesystems/gwag/v2/gw"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
 )
 
 type protoSpec struct {

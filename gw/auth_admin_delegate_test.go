@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	aav1 "github.com/iodesystems/gwag/gw/proto/adminauth/v1"
+	aav1 "github.com/iodesystems/gwag/v2/gw/proto/adminauth/v1"
 	"google.golang.org/grpc"
 )
 

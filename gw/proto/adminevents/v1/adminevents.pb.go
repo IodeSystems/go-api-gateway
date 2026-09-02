@@ -223,7 +223,7 @@ const file_gw_proto_adminevents_v1_adminevents_proto_rawDesc = "" +
 	"\x11ACTION_REGISTERED\x10\x01\x12\x17\n" +
 	"\x13ACTION_DEREGISTERED\x10\x022u\n" +
 	"\vAdminEvents\x12f\n" +
-	"\rWatchServices\x12,.gateway.adminevents.v1.WatchServicesRequest\x1a%.gateway.adminevents.v1.ServiceChange0\x01BCZAgithub.com/iodesystems/gwag/gw/proto/adminevents/v1;admineventsv1b\x06proto3"
+	"\rWatchServices\x12,.gateway.adminevents.v1.WatchServicesRequest\x1a%.gateway.adminevents.v1.ServiceChange0\x01BFZDgithub.com/iodesystems/gwag/v2/gw/proto/adminevents/v1;admineventsv1b\x06proto3"
 
 var (
 	file_gw_proto_adminevents_v1_adminevents_proto_rawDescOnce sync.Once

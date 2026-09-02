@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gwag.ps.v1;
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/ps/v1;psv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/ps/v1;psv1";
 
 // PubSub is the gateway-internal pub/sub primitive. It renders as
 // `Mutation.ps.pub(channel, payload, hmac, ts)` and

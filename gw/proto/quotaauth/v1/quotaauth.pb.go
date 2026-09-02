@@ -270,7 +270,7 @@ const file_gw_proto_quotaauth_v1_quotaauth_proto_rawDesc = "" +
 	"\x1bQUOTA_AUTH_CODE_UNAVAILABLE\x10\x03\x12\"\n" +
 	"\x1eQUOTA_AUTH_CODE_NOT_CONFIGURED\x10\x042x\n" +
 	"\x0fQuotaAuthorizer\x12e\n" +
-	"\fAcquireBlock\x12).gateway.quotaauth.v1.AcquireBlockRequest\x1a*.gateway.quotaauth.v1.AcquireBlockResponseB?Z=github.com/iodesystems/gwag/gw/proto/quotaauth/v1;quotaauthv1b\x06proto3"
+	"\fAcquireBlock\x12).gateway.quotaauth.v1.AcquireBlockRequest\x1a*.gateway.quotaauth.v1.AcquireBlockResponseBBZ@github.com/iodesystems/gwag/v2/gw/proto/quotaauth/v1;quotaauthv1b\x06proto3"
 
 var (
 	file_gw_proto_quotaauth_v1_quotaauth_proto_rawDescOnce sync.Once

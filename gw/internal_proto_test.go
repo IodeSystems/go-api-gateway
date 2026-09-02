@@ -7,8 +7,8 @@ import (
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	"github.com/iodesystems/gwag/gw/ir"
-	psv1 "github.com/iodesystems/gwag/gw/proto/ps/v1"
+	"github.com/iodesystems/gwag/v2/gw/ir"
+	psv1 "github.com/iodesystems/gwag/v2/gw/proto/ps/v1"
 )
 
 // TestInternalProto_RegisterAndDispatch exercises the internal-proto

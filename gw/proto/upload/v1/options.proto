@@ -4,7 +4,7 @@ package gwag.upload.v1;
 
 import "google/protobuf/descriptor.proto";
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/upload/v1;uploadv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/upload/v1;uploadv1";
 
 extend google.protobuf.FieldOptions {
   // Marks a `bytes` field as accepting a graphql `Upload!` value.

@@ -20,8 +20,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	hellov1 "github.com/iodesystems/gwag/examples/multi/gen/hello/v1"
-	"github.com/iodesystems/gwag/gw/controlclient"
+	hellov1 "github.com/iodesystems/gwag/v2/examples/multi/gen/hello/v1"
+	"github.com/iodesystems/gwag/v2/gw/controlclient"
 )
 
 type helloImpl struct {

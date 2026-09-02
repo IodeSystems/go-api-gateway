@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	qav1 "github.com/iodesystems/gwag/gw/proto/quotaauth/v1"
-	"github.com/iodesystems/gwag/gw/ir"
+	qav1 "github.com/iodesystems/gwag/v2/gw/proto/quotaauth/v1"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 	"golang.org/x/sync/singleflight"
 )
 

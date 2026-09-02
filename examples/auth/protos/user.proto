@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package user.v1;
 
-option go_package = "github.com/iodesystems/gwag/examples/auth/gen/user/v1;userv1";
+option go_package = "github.com/iodesystems/gwag/v2/examples/auth/gen/user/v1;userv1";
 
 import "auth.proto";
 

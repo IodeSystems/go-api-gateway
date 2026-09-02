@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package library.v1;
 
-option go_package = "github.com/iodesystems/gwag/examples/multi/gen/library/v1;libraryv1";
+option go_package = "github.com/iodesystems/gwag/v2/examples/multi/gen/library/v1;libraryv1";
 
 // LibraryService is a second proto-source service in the multi
 // example, used to demonstrate that two namespaces register and

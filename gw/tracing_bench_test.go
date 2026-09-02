@@ -30,7 +30,7 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 	"google.golang.org/grpc"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
 )
 
 // newProtoHTTPBenchGateway is a bench-shaped fixture that mounts the

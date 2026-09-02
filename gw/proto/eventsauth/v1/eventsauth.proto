@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gateway.eventsauth.v1;
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/eventsauth/v1;eventsauthv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/eventsauth/v1;eventsauthv1";
 
 // SubscriptionAuthorizer is the optional delegate the gateway calls
 // when SignSubscriptionToken is invoked. Implement it in your authz

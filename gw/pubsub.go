@@ -9,7 +9,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"
 
-	psv1 "github.com/iodesystems/gwag/gw/proto/ps/v1"
+	psv1 "github.com/iodesystems/gwag/v2/gw/proto/ps/v1"
 )
 
 // gwag.ps.v1 is the gateway-bundled pub/sub primitive — installed at

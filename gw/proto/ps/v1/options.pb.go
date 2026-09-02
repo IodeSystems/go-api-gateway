@@ -112,7 +112,7 @@ const file_gw_proto_ps_v1_options_proto_rawDesc = "" +
 	"gwag.ps.v1\x1a google/protobuf/descriptor.proto\"*\n" +
 	"\x0eChannelBinding\x12\x18\n" +
 	"\apattern\x18\x01 \x01(\tR\apattern:Z\n" +
-	"\abinding\x12\x1f.google.protobuf.MessageOptions\x18\xa2\x90\x03 \x01(\v2\x1a.gwag.ps.v1.ChannelBindingR\abinding\x88\x01\x01B1Z/github.com/iodesystems/gwag/gw/proto/ps/v1;psv1b\x06proto3"
+	"\abinding\x12\x1f.google.protobuf.MessageOptions\x18\xa2\x90\x03 \x01(\v2\x1a.gwag.ps.v1.ChannelBindingR\abinding\x88\x01\x01B4Z2github.com/iodesystems/gwag/v2/gw/proto/ps/v1;psv1b\x06proto3"
 
 var (
 	file_gw_proto_ps_v1_options_proto_rawDescOnce sync.Once

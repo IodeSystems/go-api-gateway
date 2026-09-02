@@ -14,7 +14,7 @@ import (
 	"github.com/danielgtaylor/huma/v2"
 	"github.com/danielgtaylor/huma/v2/adapters/humago"
 
-	"github.com/iodesystems/gwag/gw/gat"
+	"github.com/iodesystems/gwag/v2/gw/gat"
 	"github.com/iodesystems/gwag/compare/gatbench/model"
 )
 

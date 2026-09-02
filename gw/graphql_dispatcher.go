@@ -11,7 +11,7 @@ import (
 	"github.com/IodeSystems/graphql-go/v2/language/ast"
 	"github.com/IodeSystems/graphql-go/v2/language/printer"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // graphQLForwardInfoKey carries the resolver's ResolveInfo (FieldASTs +

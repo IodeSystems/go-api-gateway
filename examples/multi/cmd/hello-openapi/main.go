@@ -21,7 +21,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/iodesystems/gwag/gw/controlclient"
+	"github.com/iodesystems/gwag/v2/gw/controlclient"
 )
 
 const helloSpec = `{

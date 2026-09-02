@@ -9,9 +9,9 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	authv1 "github.com/iodesystems/gwag/examples/auth/gen/auth/v1"
-	userv1 "github.com/iodesystems/gwag/examples/auth/gen/user/v1"
-	"github.com/iodesystems/gwag/gw/ir"
+	authv1 "github.com/iodesystems/gwag/v2/examples/auth/gen/auth/v1"
+	userv1 "github.com/iodesystems/gwag/v2/examples/auth/gen/user/v1"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // TestInjectType_PointerProtoTRewrite confirms that the canonical

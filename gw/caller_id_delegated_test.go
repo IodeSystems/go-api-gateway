@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	cav1 "github.com/iodesystems/gwag/gw/proto/callerauth/v1"
+	cav1 "github.com/iodesystems/gwag/v2/gw/proto/callerauth/v1"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 )

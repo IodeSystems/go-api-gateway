@@ -28,7 +28,7 @@ import (
     "go.opentelemetry.io/otel/sdk/resource"
     semconv "go.opentelemetry.io/otel/semconv/v1.26.0"
 
-    gateway "github.com/iodesystems/gwag/gw"
+    gateway "github.com/iodesystems/gwag/v2/gw"
 )
 
 exp, err := otlptracegrpc.New(ctx,

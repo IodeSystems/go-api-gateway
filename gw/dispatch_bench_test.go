@@ -42,8 +42,8 @@ import (
 	"github.com/IodeSystems/graphql-go/v2"
 	"github.com/IodeSystems/graphql-go/v2/language/parser"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
-	"github.com/iodesystems/gwag/gw/ir"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 	"google.golang.org/grpc"
 )
 

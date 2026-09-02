@@ -184,7 +184,7 @@ const file_auth_proto_rawDesc = "" +
 	"\auser_id\x18\x01 \x01(\tR\x06userId\x12\x1b\n" +
 	"\ttenant_id\x18\x02 \x01(\tR\btenantId2K\n" +
 	"\vAuthService\x12<\n" +
-	"\aResolve\x12\x17.auth.v1.ResolveRequest\x1a\x18.auth.v1.ResolveResponseB>Z<github.com/iodesystems/gwag/examples/auth/gen/auth/v1;authv1b\x06proto3"
+	"\aResolve\x12\x17.auth.v1.ResolveRequest\x1a\x18.auth.v1.ResolveResponseBAZ?github.com/iodesystems/gwag/v2/examples/auth/gen/auth/v1;authv1b\x06proto3"
 
 var (
 	file_auth_proto_rawDescOnce sync.Once

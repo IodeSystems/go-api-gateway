@@ -11,9 +11,9 @@ are explicitly carved out from the promise.
 
 | Surface | 1.x promise | Where to look |
 |---|---|---|
-| Imported names in `github.com/iodesystems/gwag/gw` (default reflection path) | Stable. No renames / removals; new options are additive. | `// Stability: stable` in godoc |
-| Imported names in `github.com/iodesystems/gwag/gw/ir` | Stable IR contract. Struct fields may be added; existing field semantics fixed. | `// Stability: stable` in godoc |
-| Imported names in `github.com/iodesystems/gwag/gw/gat` | **Experimental.** Tier-2 work (proto ingest, `gwag serve`) may still reshape it. | `// Stability: experimental` in godoc |
+| Imported names in `github.com/iodesystems/gwag/v2/gw` (default reflection path) | Stable. No renames / removals; new options are additive. | `// Stability: stable` in godoc |
+| Imported names in `github.com/iodesystems/gwag/v2/gw/ir` | Stable IR contract. Struct fields may be added; existing field semantics fixed. | `// Stability: stable` in godoc |
+| Imported names in `github.com/iodesystems/gwag/v2/gw/gat` | **Experimental.** Tier-2 work (proto ingest, `gwag serve`) may still reshape it. | `// Stability: experimental` in godoc |
 | Control-plane proto wire (`controlplane.v1`) | Stable. Field numbers locked; new fields ride on unused tags. | `gw/proto/controlplane/v1/` |
 | Admin huma surface (`/admin/*`) | Stable URLs + handlers, additive response fields | `gw/admin_huma.go` |
 | MCP tool names and prompt shapes | Experimental. Reflection-driven; subject to schema-naming-policy churn | `gw/mcp_tools.go` |

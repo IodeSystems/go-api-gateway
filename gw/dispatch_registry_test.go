@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // After a schema rebuild, every dispatchable operation must be

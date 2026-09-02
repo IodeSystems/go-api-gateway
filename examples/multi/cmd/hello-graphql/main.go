@@ -24,7 +24,7 @@ import (
 
 	"github.com/IodeSystems/graphql-go/v2"
 
-	"github.com/iodesystems/gwag/gw/controlclient"
+	"github.com/iodesystems/gwag/v2/gw/controlclient"
 )
 
 func newSchema() (graphql.Schema, error) {

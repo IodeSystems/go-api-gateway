@@ -7,7 +7,7 @@ import (
 	"github.com/nats-io/nats.go"
 	"google.golang.org/protobuf/proto"
 
-	aev1 "github.com/iodesystems/gwag/gw/proto/adminevents/v1"
+	aev1 "github.com/iodesystems/gwag/v2/gw/proto/adminevents/v1"
 )
 
 // TestAdminEvents_PublishOnRegister verifies the gateway publishes a

@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	gateway "github.com/iodesystems/gwag/gw"
+	gateway "github.com/iodesystems/gwag/v2/gw"
 )
 
 func TestParseAllowTier(t *testing.T) {

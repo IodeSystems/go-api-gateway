@@ -35,7 +35,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
 )
 
 // Service describes one service binding to register with the gateway.

@@ -4,7 +4,7 @@ package gateway.quotaauth.v1;
 
 import "google/protobuf/timestamp.proto";
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/quotaauth/v1;quotaauthv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/quotaauth/v1;quotaauthv1";
 
 // QuotaAuthorizer is the optional delegate the gateway calls to grant
 // blocks of permits per caller. Implement it in your quota service and

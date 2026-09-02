@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package hello.v1;
 
-option go_package = "github.com/iodesystems/gwag/examples/multi/gen/hello/v1;hellov1";
+option go_package = "github.com/iodesystems/gwag/v2/examples/multi/gen/hello/v1;hellov1";
 
 // HelloService — the gRPC-native sibling of hello-openapi and
 // hello-graphql. Single unary Hello operation, used as the format-

@@ -30,9 +30,9 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/test/bufconn"
 
-	gateway "github.com/iodesystems/gwag/gw"
-	authv1 "github.com/iodesystems/gwag/examples/auth/gen/auth/v1"
-	userv1 "github.com/iodesystems/gwag/examples/auth/gen/user/v1"
+	gateway "github.com/iodesystems/gwag/v2/gw"
+	authv1 "github.com/iodesystems/gwag/v2/examples/auth/gen/auth/v1"
+	userv1 "github.com/iodesystems/gwag/v2/examples/auth/gen/user/v1"
 )
 
 func main() {

@@ -3,7 +3,7 @@ package gateway
 import (
 	"sort"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // registerMCPDispatchersLocked walks the IR services produced by slot-IR

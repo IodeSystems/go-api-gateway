@@ -96,7 +96,7 @@ Subcommands: `peer list/forget`, `services list`, `schema fetch/diff`,
 
 ## Architecture Essentials
 
-- **Library**: `gw/` — import as `gateway "github.com/iodesystems/gwag/gw"`.
+- **Library**: `gw/` — import as `gateway "github.com/iodesystems/gwag/v2/gw"`.
 - **IR layer**: `gw/ir/` — format-agnostic intermediate representation.
   Ingest (proto/OpenAPI/GraphQL) happens once at registration; schema
   rebuild reads `slot.ir` directly.

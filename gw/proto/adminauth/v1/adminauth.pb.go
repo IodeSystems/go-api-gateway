@@ -233,7 +233,7 @@ const file_gw_proto_adminauth_v1_adminauth_proto_rawDesc = "" +
 	"\x1bADMIN_AUTH_CODE_UNAVAILABLE\x10\x03\x12\"\n" +
 	"\x1eADMIN_AUTH_CODE_NOT_CONFIGURED\x10\x042o\n" +
 	"\x0fAdminAuthorizer\x12\\\n" +
-	"\tAuthorize\x12&.gateway.adminauth.v1.AuthorizeRequest\x1a'.gateway.adminauth.v1.AuthorizeResponseB?Z=github.com/iodesystems/gwag/gw/proto/adminauth/v1;adminauthv1b\x06proto3"
+	"\tAuthorize\x12&.gateway.adminauth.v1.AuthorizeRequest\x1a'.gateway.adminauth.v1.AuthorizeResponseBBZ@github.com/iodesystems/gwag/v2/gw/proto/adminauth/v1;adminauthv1b\x06proto3"
 
 var (
 	file_gw_proto_adminauth_v1_adminauth_proto_rawDescOnce sync.Once

@@ -297,7 +297,7 @@ const file_library_proto_rawDesc = "" +
 	"\x04year\x18\x04 \x01(\x05R\x04year2\x93\x01\n" +
 	"\x0eLibraryService\x12H\n" +
 	"\tListBooks\x12\x1c.library.v1.ListBooksRequest\x1a\x1d.library.v1.ListBooksResponse\x127\n" +
-	"\aGetBook\x12\x1a.library.v1.GetBookRequest\x1a\x10.library.v1.BookBEZCgithub.com/iodesystems/gwag/examples/multi/gen/library/v1;libraryv1b\x06proto3"
+	"\aGetBook\x12\x1a.library.v1.GetBookRequest\x1a\x10.library.v1.BookBHZFgithub.com/iodesystems/gwag/v2/examples/multi/gen/library/v1;libraryv1b\x06proto3"
 
 var (
 	file_library_proto_rawDescOnce sync.Once

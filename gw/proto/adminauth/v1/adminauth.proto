@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gateway.adminauth.v1;
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/adminauth/v1;adminauthv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/adminauth/v1;adminauthv1";
 
 // AdminAuthorizer is the optional delegate the gateway calls before
 // AdminMiddleware accepts a write to /admin/*. Implement it in your

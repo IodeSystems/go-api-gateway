@@ -9,7 +9,7 @@ emitted from the same handlers huma already runs.
 Import:
 
 ```go
-import "github.com/iodesystems/gwag/gw/gat"
+import "github.com/iodesystems/gwag/v2/gw/gat"
 ```
 
 A runnable end-to-end demo with React/TypeScript codegen lives at

@@ -7,7 +7,7 @@
 package userv1
 
 import (
-	v1 "github.com/iodesystems/gwag/examples/auth/gen/auth/v1"
+	v1 "github.com/iodesystems/gwag/v2/examples/auth/gen/auth/v1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
@@ -146,7 +146,7 @@ const file_user_proto_rawDesc = "" +
 	"\x04name\x18\x02 \x01(\tR\x04name\x12\x1b\n" +
 	"\ttenant_id\x18\x03 \x01(\tR\btenantId2E\n" +
 	"\vUserService\x126\n" +
-	"\x05GetMe\x12\x15.user.v1.GetMeRequest\x1a\x16.user.v1.GetMeResponseB>Z<github.com/iodesystems/gwag/examples/auth/gen/user/v1;userv1b\x06proto3"
+	"\x05GetMe\x12\x15.user.v1.GetMeRequest\x1a\x16.user.v1.GetMeResponseBAZ?github.com/iodesystems/gwag/v2/examples/auth/gen/user/v1;userv1b\x06proto3"
 
 var (
 	file_user_proto_rawDescOnce sync.Once

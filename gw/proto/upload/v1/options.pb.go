@@ -54,7 +54,7 @@ var File_gw_proto_upload_v1_options_proto protoreflect.FileDescriptor
 const file_gw_proto_upload_v1_options_proto_rawDesc = "" +
 	"\n" +
 	" gw/proto/upload/v1/options.proto\x12\x0egwag.upload.v1\x1a google/protobuf/descriptor.proto::\n" +
-	"\x06upload\x12\x1d.google.protobuf.FieldOptions\x18\xa3\x90\x03 \x01(\bR\x06upload\x88\x01\x01B9Z7github.com/iodesystems/gwag/gw/proto/upload/v1;uploadv1b\x06proto3"
+	"\x06upload\x12\x1d.google.protobuf.FieldOptions\x18\xa3\x90\x03 \x01(\bR\x06upload\x88\x01\x01B<Z:github.com/iodesystems/gwag/v2/gw/proto/upload/v1;uploadv1b\x06proto3"
 
 var file_gw_proto_upload_v1_options_proto_goTypes = []any{
 	(*descriptorpb.FieldOptions)(nil), // 0: google.protobuf.FieldOptions

@@ -33,7 +33,7 @@ import (
 	"google.golang.org/protobuf/reflect/protoreflect"
 	"google.golang.org/protobuf/types/descriptorpb"
 
-	"github.com/iodesystems/gwag/gw/gat"
+	"github.com/iodesystems/gwag/v2/gw/gat"
 )
 
 // benchGetProject is the single handler every path below dispatches

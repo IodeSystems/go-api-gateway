@@ -13,7 +13,7 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // outboundIdleConnsPerHost is how many keep-alive connections gat

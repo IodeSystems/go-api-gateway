@@ -26,8 +26,8 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iodesystems/gwag/gw/controlclient"
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
+	"github.com/iodesystems/gwag/v2/gw/controlclient"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
 )
 
 type greeterImpl struct {

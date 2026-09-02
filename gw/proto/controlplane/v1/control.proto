@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gateway.controlplane.v1;
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/controlplane/v1;controlplanev1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1;controlplanev1";
 
 // ControlPlane is the API services use to register themselves with a
 // running gateway. The flow:

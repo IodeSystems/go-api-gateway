@@ -1,6 +1,6 @@
 # Release process
 
-Step-by-step for cutting a tagged release of `github.com/iodesystems/gwag`.
+Step-by-step for cutting a tagged release of `github.com/iodesystems/gwag/v2`.
 
 ## Before the first 1.0
 
@@ -83,7 +83,7 @@ become 2.0 work with a deprecation cycle.
 7. **Verify the Go proxy picked it up.**
 
    ```
-   go list -m -versions github.com/iodesystems/gwag
+   go list -m -versions github.com/iodesystems/gwag/v2
    ```
 
    `v1.0.0` should appear within a minute. If not, the proxy is

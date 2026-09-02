@@ -20,7 +20,7 @@ import (
 	"github.com/IodeSystems/graphql-go/v2"
 	"github.com/IodeSystems/graphql-go/v2/language/ast"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // AddOpenAPIBytes registers an in-memory OpenAPI 3.x spec. Same shape

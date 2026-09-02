@@ -7,7 +7,7 @@ import (
 	"github.com/IodeSystems/graphql-go/v2"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/iodesystems/gwag/gw/ir"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 // schemaGraphQLHandler serves the gateway's GraphQL surface as SDL

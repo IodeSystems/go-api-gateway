@@ -21,7 +21,7 @@ import (
 	"google.golang.org/protobuf/types/descriptorpb"
 	"google.golang.org/protobuf/types/dynamicpb"
 
-	"github.com/iodesystems/gwag/bench/cmd/traffic/runner"
+	"github.com/iodesystems/gwag/v2/bench/cmd/traffic/runner"
 )
 
 // runGRPC parses grpc-adapter flags, fetches the gateway-rendered FDS

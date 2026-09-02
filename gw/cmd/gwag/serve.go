@@ -28,9 +28,9 @@ import (
 
 	"github.com/getkin/kin-openapi/openapi3"
 
-	gateway "github.com/iodesystems/gwag/gw"
-	"github.com/iodesystems/gwag/gw/gat"
-	"github.com/iodesystems/gwag/gw/ir"
+	gateway "github.com/iodesystems/gwag/v2/gw"
+	"github.com/iodesystems/gwag/v2/gw/gat"
+	"github.com/iodesystems/gwag/v2/gw/ir"
 )
 
 func serveCmd(args []string) int {

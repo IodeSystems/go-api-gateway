@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/iodesystems/gwag/bench/cmd/traffic/runner"
+	"github.com/iodesystems/gwag/v2/bench/cmd/traffic/runner"
 )
 
 // writeJSONIfRequested writes runner.WriteJSON to the path (or stdout

@@ -14,7 +14,7 @@ import (
 
 	"github.com/nats-io/nats.go/jetstream"
 
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
 )
 
 // sharedCluster is a package-level 2-node NATS cluster started once

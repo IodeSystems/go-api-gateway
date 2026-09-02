@@ -12,7 +12,7 @@ import (
 	"testing"
 	"time"
 
-	qav1 "github.com/iodesystems/gwag/gw/proto/quotaauth/v1"
+	qav1 "github.com/iodesystems/gwag/v2/gw/proto/quotaauth/v1"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

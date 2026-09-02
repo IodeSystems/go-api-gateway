@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/metadata"
 )
 
-const tracerName = "github.com/iodesystems/gwag/gw"
+const tracerName = "github.com/iodesystems/gwag/v2/gw"
 
 // Canonical span attributes. Three keys are shared across every
 // ingress + dispatch span (gateway.ingress / gateway.namespace /

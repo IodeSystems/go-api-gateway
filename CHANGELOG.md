@@ -9,6 +9,43 @@ changes on MINOR, drops on MAJOR.
 
 ## Unreleased
 
+## v2.0.0 — 2026-09-01
+
+### Changed
+- **Import paths gain a `/v2` suffix.**
+  `github.com/iodesystems/gwag` → `github.com/iodesystems/gwag/v2`.
+  Required, not cosmetic: gwag's exported API is typed in graphql-go
+  values — `*graphql.Scalar`, `graphql.Output`, `*graphql.Schema`,
+  `graphql.Fields`, `*graphql.ResolveInfo` — and those types now come
+  from `github.com/IodeSystems/graphql-go/v2`. To Go, a type from the
+  v1 path and the same type from the v2 path are different types, so a
+  caller holding a v1 `*graphql.Scalar` can no longer pass it in. That
+  is a MAJOR break under `docs/stability.md`, and v1.4.1 consumers stay
+  frozen where they are until they choose to move.
+
+- **graphql-go v1.2.0 → v2.0.0.** `ExecuteParams.ConcurrentThunks` was
+  removed upstream; gwag never set it, so nothing here changed but the
+  path.
+
+### Fixed
+- **Thunked resolvers no longer serialize under append-mode execution.**
+  graphql-go's append walker awaited each thunk as its own resolver
+  returned, so resolvers that start a goroutine and return a thunk
+  waiting on it ran end to end instead of overlapping. A selection set
+  now resolves every field before awaiting any thunk. Measured on 20
+  fields sleeping 1 ms each: 21.8 ms → 1.49 ms.
+
+### Added
+- **`graphql.DoWriter` / `graphql.DoAppend`** are available from
+  graphql-go v2 for writing a response body without building the
+  `map[string]interface{}` result tree. gwag does not use them yet.
+
+### Performance
+- Plan-time allocation in graphql-go dropped: response-key JSON is
+  built once per selection set on first append-mode use rather than
+  once per field at plan time. `PlanQuery` on a 100-field query went
+  325 → 224 allocs/op.
+
 ## v1.4.1 — 2026-08-18
 
 ### Security

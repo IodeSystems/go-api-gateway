@@ -157,7 +157,7 @@ const file_gw_proto_eventsauth_v1_eventsauth_proto_rawDesc = "" +
 	"\x04code\x18\x01 \x01(\x05R\x04code\x12\x16\n" +
 	"\x06reason\x18\x02 \x01(\tR\x06reason2\x84\x01\n" +
 	"\x16SubscriptionAuthorizer\x12j\n" +
-	"\rAuthorizeSign\x12+.gateway.eventsauth.v1.AuthorizeSignRequest\x1a,.gateway.eventsauth.v1.AuthorizeSignResponseBAZ?github.com/iodesystems/gwag/gw/proto/eventsauth/v1;eventsauthv1b\x06proto3"
+	"\rAuthorizeSign\x12+.gateway.eventsauth.v1.AuthorizeSignRequest\x1a,.gateway.eventsauth.v1.AuthorizeSignResponseBDZBgithub.com/iodesystems/gwag/v2/gw/proto/eventsauth/v1;eventsauthv1b\x06proto3"
 
 var (
 	file_gw_proto_eventsauth_v1_eventsauth_proto_rawDescOnce sync.Once

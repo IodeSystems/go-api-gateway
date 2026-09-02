@@ -10,7 +10,7 @@ import (
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/peer"
 
-	cpv1 "github.com/iodesystems/gwag/gw/proto/controlplane/v1"
+	cpv1 "github.com/iodesystems/gwag/v2/gw/proto/controlplane/v1"
 )
 
 // signRecorder is a thin metric mock that captures RecordSignAuth

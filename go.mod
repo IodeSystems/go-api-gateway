@@ -1,4 +1,4 @@
-module github.com/iodesystems/gwag
+module github.com/iodesystems/gwag/v2
 
 go 1.26.2
 

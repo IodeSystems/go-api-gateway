@@ -1736,7 +1736,7 @@ const file_gw_proto_controlplane_v1_control_proto_rawDesc = "" +
 	"\x15SignSubscriptionToken\x125.gateway.controlplane.v1.SignSubscriptionTokenRequest\x1a6.gateway.controlplane.v1.SignSubscriptionTokenResponse\x12n\n" +
 	"\rRetractStable\x12-.gateway.controlplane.v1.RetractStableRequest\x1a..gateway.controlplane.v1.RetractStableResponse\x12b\n" +
 	"\tDeprecate\x12).gateway.controlplane.v1.DeprecateRequest\x1a*.gateway.controlplane.v1.DeprecateResponse\x12h\n" +
-	"\vUndeprecate\x12+.gateway.controlplane.v1.UndeprecateRequest\x1a,.gateway.controlplane.v1.UndeprecateResponseBEZCgithub.com/iodesystems/gwag/gw/proto/controlplane/v1;controlplanev1b\x06proto3"
+	"\vUndeprecate\x12+.gateway.controlplane.v1.UndeprecateRequest\x1a,.gateway.controlplane.v1.UndeprecateResponseBHZFgithub.com/iodesystems/gwag/v2/gw/proto/controlplane/v1;controlplanev1b\x06proto3"
 
 var (
 	file_gw_proto_controlplane_v1_control_proto_rawDescOnce sync.Once

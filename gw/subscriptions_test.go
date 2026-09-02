@@ -15,7 +15,7 @@ import (
 	"google.golang.org/protobuf/proto"
 	"nhooyr.io/websocket"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
 )
 
 // nopGRPCConn is a stub grpc.ClientConnInterface attached to the

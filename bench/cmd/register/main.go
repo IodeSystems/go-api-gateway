@@ -24,7 +24,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/iodesystems/gwag/gw/controlclient"
+	"github.com/iodesystems/gwag/v2/gw/controlclient"
 )
 
 func main() {

@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package gateway.callerauth.v1;
 
-option go_package = "github.com/iodesystems/gwag/gw/proto/callerauth/v1;callerauthv1";
+option go_package = "github.com/iodesystems/gwag/v2/gw/proto/callerauth/v1;callerauthv1";
 
 // CallerAuthorizer is the optional delegate the gateway calls to
 // resolve an inbound caller token into a caller-id. Implement it in

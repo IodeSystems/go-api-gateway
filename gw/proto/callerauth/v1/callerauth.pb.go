@@ -286,7 +286,7 @@ const file_gw_proto_callerauth_v1_callerauth_proto_rawDesc = "" +
 	"\x1cCALLER_AUTH_CODE_UNAVAILABLE\x10\x03\x12#\n" +
 	"\x1fCALLER_AUTH_CODE_NOT_CONFIGURED\x10\x042r\n" +
 	"\x10CallerAuthorizer\x12^\n" +
-	"\tAuthorize\x12'.gateway.callerauth.v1.AuthorizeRequest\x1a(.gateway.callerauth.v1.AuthorizeResponseBAZ?github.com/iodesystems/gwag/gw/proto/callerauth/v1;callerauthv1b\x06proto3"
+	"\tAuthorize\x12'.gateway.callerauth.v1.AuthorizeRequest\x1a(.gateway.callerauth.v1.AuthorizeResponseBDZBgithub.com/iodesystems/gwag/v2/gw/proto/callerauth/v1;callerauthv1b\x06proto3"
 
 var (
 	file_gw_proto_callerauth_v1_callerauth_proto_rawDescOnce sync.Once

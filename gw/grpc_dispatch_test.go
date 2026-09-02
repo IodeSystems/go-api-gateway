@@ -14,7 +14,7 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"
 
-	greeterv1 "github.com/iodesystems/gwag/examples/multi/gen/greeter/v1"
+	greeterv1 "github.com/iodesystems/gwag/v2/examples/multi/gen/greeter/v1"
 )
 
 // fakeGreeterServer implements the unary Hello and the server-streaming

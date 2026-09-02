@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	psav1 "github.com/iodesystems/gwag/gw/proto/pubsubauth/v1"
+	psav1 "github.com/iodesystems/gwag/v2/gw/proto/pubsubauth/v1"
 	"google.golang.org/grpc"
 )
 

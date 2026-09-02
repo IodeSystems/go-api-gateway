@@ -15,7 +15,7 @@ missed heartbeats past TTL evict.
 import (
     _ "embed"
 
-    "github.com/iodesystems/gwag/controlclient"
+    "github.com/iodesystems/gwag/v2/controlclient"
 )
 
 //go:embed greeter.proto

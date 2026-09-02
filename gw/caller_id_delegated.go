@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	cav1 "github.com/iodesystems/gwag/gw/proto/callerauth/v1"
+	cav1 "github.com/iodesystems/gwag/v2/gw/proto/callerauth/v1"
 	"github.com/nats-io/nats.go"
 	"golang.org/x/sync/singleflight"
 	"google.golang.org/grpc/metadata"
