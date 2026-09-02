@@ -19,8 +19,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/IodeSystems/graphql-go"
-	"github.com/IodeSystems/graphql-go/gqlerrors"
+	"github.com/IodeSystems/graphql-go/v2"
+	"github.com/IodeSystems/graphql-go/v2/gqlerrors"
 	oteltrace "go.opentelemetry.io/otel/trace"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"

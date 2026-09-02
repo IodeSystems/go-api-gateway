@@ -15,7 +15,7 @@ require (
 )
 
 require (
-	github.com/IodeSystems/graphql-go v1.2.0 // indirect
+	github.com/IodeSystems/graphql-go/v2 v2.0.0 // indirect
 	github.com/agnivade/levenshtein v1.2.1 // indirect
 	github.com/bufbuild/protocompile v0.14.1 // indirect
 	github.com/coder/websocket v1.8.15 // indirect

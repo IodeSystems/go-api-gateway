@@ -8,8 +8,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/IodeSystems/graphql-go"
-	"github.com/IodeSystems/graphql-go/language/ast"
+	"github.com/IodeSystems/graphql-go/v2"
+	"github.com/IodeSystems/graphql-go/v2/language/ast"
 )
 
 // lowerCamel converts snake_case to lowerCamelCase.

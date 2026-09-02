@@ -1,7 +1,7 @@
 package gateway
 
 import (
-	"github.com/IodeSystems/graphql-go"
+	"github.com/IodeSystems/graphql-go/v2"
 	"github.com/prometheus/client_golang/prometheus"
 )
 

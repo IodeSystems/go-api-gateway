@@ -7,7 +7,7 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"github.com/IodeSystems/graphql-go/language/ast"
+	"github.com/IodeSystems/graphql-go/v2/language/ast"
 
 	"google.golang.org/protobuf/reflect/protoreflect"
 )

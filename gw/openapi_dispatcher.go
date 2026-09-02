@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/IodeSystems/graphql-go/language/ast"
+	"github.com/IodeSystems/graphql-go/v2/language/ast"
 	"github.com/getkin/kin-openapi/openapi3"
 
 	"github.com/iodesystems/gwag/gw/ir"

@@ -17,8 +17,8 @@ import (
 	"sync/atomic"
 
 	"github.com/getkin/kin-openapi/openapi3"
-	"github.com/IodeSystems/graphql-go"
-	"github.com/IodeSystems/graphql-go/language/ast"
+	"github.com/IodeSystems/graphql-go/v2"
+	"github.com/IodeSystems/graphql-go/v2/language/ast"
 
 	"github.com/iodesystems/gwag/gw/ir"
 )

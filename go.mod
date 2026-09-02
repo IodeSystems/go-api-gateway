@@ -4,7 +4,7 @@ go 1.26.2
 
 require (
 	connectrpc.com/connect v1.19.2
-	github.com/IodeSystems/graphql-go v1.2.0
+	github.com/IodeSystems/graphql-go/v2 v2.0.0
 	github.com/bufbuild/protocompile v0.14.1
 	github.com/danielgtaylor/huma/v2 v2.37.3
 	github.com/getkin/kin-openapi v0.138.0

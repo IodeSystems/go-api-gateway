@@ -6,8 +6,8 @@ import (
 	"io"
 	"sync"
 
-	"github.com/IodeSystems/graphql-go"
-	"github.com/IodeSystems/graphql-go/language/ast"
+	"github.com/IodeSystems/graphql-go/v2"
+	"github.com/IodeSystems/graphql-go/v2/language/ast"
 )
 
 // Upload is the Go-side value of a GraphQL Upload scalar. It carries

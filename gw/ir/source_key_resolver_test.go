@@ -10,7 +10,7 @@ package ir
 import (
 	"testing"
 
-	"github.com/IodeSystems/graphql-go"
+	"github.com/IodeSystems/graphql-go/v2"
 )
 
 // rp builds a ResolveParams with the given Source for tests; we don't

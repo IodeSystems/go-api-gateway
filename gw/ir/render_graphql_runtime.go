@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/IodeSystems/graphql-go"
+	"github.com/IodeSystems/graphql-go/v2"
 )
 
 // RuntimeOptions configures RenderGraphQLRuntime.

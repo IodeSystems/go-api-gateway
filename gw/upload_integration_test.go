@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/IodeSystems/graphql-go"
+	"github.com/IodeSystems/graphql-go/v2"
 )
 
 // TestUpload_HTTPIngressMultipartRoundTrip — full chain:

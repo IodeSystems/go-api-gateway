@@ -5,9 +5,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/IodeSystems/graphql-go/language/ast"
-	"github.com/IodeSystems/graphql-go/language/parser"
-	"github.com/IodeSystems/graphql-go/language/source"
+	"github.com/IodeSystems/graphql-go/v2/language/ast"
+	"github.com/IodeSystems/graphql-go/v2/language/parser"
+	"github.com/IodeSystems/graphql-go/v2/language/source"
 )
 
 // schemaModel is a comparison-friendly view of an SDL document. We
