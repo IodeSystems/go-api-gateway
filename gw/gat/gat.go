@@ -285,15 +285,23 @@ func (g *Gateway) Handler() http.Handler {
 		// successful transport exchange carrying an errors envelope, not a
 		// failed request. The two 400s above are transport-level (the body
 		// wasn't JSON, or carried no query at all) and stay 400.
-		cookies.emit(w)
-		w.Header().Set("Content-Type", "application/json; charset=utf-8")
-		w.WriteHeader(http.StatusOK)
-
+		// Build the ENTIRE body before touching the response header. A
+		// handler's Set-Cookie only reaches the sink once its resolver has
+		// run (dispatch calls sink.addFromOutput), so emitting before
+		// execution writes an EMPTY sink and the cookie is dropped —
+		// silently, since the op itself still succeeds. That is how
+		// login/logout stopped setting a session over GraphQL while the
+		// REST twin of the same handler kept working.
+		//
+		// Nothing here streams — ExecutePlanAppend assembles the bytes in
+		// memory — so deferring the header costs nothing.
+		var payload []byte
+		var recycle func()
 		switch {
 		case len(pr.Errors) > 0:
 			// Parse / validate failed, so there is no plan to run. Rare
 			// path with a small payload — the encoder is fine here.
-			_ = json.NewEncoder(w).Encode(&graphql.Result{Errors: pr.Errors})
+			payload, _ = json.Marshal(&graphql.Result{Errors: pr.Errors})
 		case pr.Plan != nil:
 			args := variables
 			if len(pr.SynthArgs) > 0 {
@@ -320,30 +328,46 @@ func (g *Gateway) Handler() http.Handler {
 				// Spec-level failures (variable coercion and friends) that
 				// happened before any data was assembled. Emit a clean
 				// errors envelope rather than the partial bytes.
-				_ = json.NewEncoder(w).Encode(&graphql.Result{Errors: errs})
+				payload, _ = json.Marshal(&graphql.Result{Errors: errs})
 			} else {
 				// Field-level errors are already inside body's `errors`
 				// array — ExecutePlanAppend writes them there.
-				_, _ = w.Write(body)
+				payload = body
 			}
 			// Recycle the (possibly grown) backing array unless it
 			// ballooned; a one-off large response shouldn't pin a fat
 			// allocation for the process lifetime.
-			if cap(body) <= graphqlBufPoolMax {
-				*buf = body[:0]
-				graphqlBufPool.Put(buf)
+			// Recycled after the write below, not here: payload may alias
+			// body, so returning it to the pool now would hand the buffer
+			// back while it is still the response.
+			recycle = func() {
+				if cap(body) <= graphqlBufPoolMax {
+					*buf = body[:0]
+					graphqlBufPool.Put(buf)
+				}
 			}
 		default:
 			// No plan and no errors shouldn't happen, but fall back to
 			// the full parse-and-execute path rather than serving an
 			// empty body.
-			_ = json.NewEncoder(w).Encode(graphql.Do(graphql.Params{
+			payload, _ = json.Marshal(graphql.Do(graphql.Params{
 				Schema:         *g.schema,
 				RequestString:  query,
 				VariableValues: variables,
 				OperationName:  operationName,
 				Context:        ctx,
 			}))
+		}
+
+		// Execution is done, so the sink now holds whatever the resolvers
+		// produced. Emit before WriteHeader — after it the header map is
+		// already on the wire.
+		cookies.emit(w)
+		w.Header().Set("Content-Type", "application/json; charset=utf-8")
+		w.WriteHeader(http.StatusOK)
+		_, _ = w.Write(payload)
+		if recycle != nil {
+			recycle()
 		}
 	})
 }
