@@ -9,43 +9,18 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as TokenSignerRouteImport } from './routes/token-signer'
-import { Route as ServicesRouteImport } from './routes/services'
-import { Route as SchemaRouteImport } from './routes/schema'
-import { Route as PeersRouteImport } from './routes/peers'
-import { Route as McpRouteImport } from './routes/mcp'
-import { Route as InjectorsRouteImport } from './routes/injectors'
-import { Route as DeprecatedRouteImport } from './routes/deprecated'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as DeprecatedRouteImport } from './routes/deprecated'
+import { Route as InjectorsRouteImport } from './routes/injectors'
+import { Route as McpRouteImport } from './routes/mcp'
+import { Route as PeersRouteImport } from './routes/peers'
+import { Route as SchemaRouteImport } from './routes/schema'
+import { Route as ServicesRouteImport } from './routes/services'
+import { Route as TokenSignerRouteImport } from './routes/token-signer'
 
-const TokenSignerRoute = TokenSignerRouteImport.update({
-  id: '/token-signer',
-  path: '/token-signer',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ServicesRoute = ServicesRouteImport.update({
-  id: '/services',
-  path: '/services',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const SchemaRoute = SchemaRouteImport.update({
-  id: '/schema',
-  path: '/schema',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PeersRoute = PeersRouteImport.update({
-  id: '/peers',
-  path: '/peers',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const McpRoute = McpRouteImport.update({
-  id: '/mcp',
-  path: '/mcp',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const InjectorsRoute = InjectorsRouteImport.update({
-  id: '/injectors',
-  path: '/injectors',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const DeprecatedRoute = DeprecatedRouteImport.update({
@@ -53,9 +28,34 @@ const DeprecatedRoute = DeprecatedRouteImport.update({
   path: '/deprecated',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const InjectorsRoute = InjectorsRouteImport.update({
+  id: '/injectors',
+  path: '/injectors',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const McpRoute = McpRouteImport.update({
+  id: '/mcp',
+  path: '/mcp',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PeersRoute = PeersRouteImport.update({
+  id: '/peers',
+  path: '/peers',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SchemaRoute = SchemaRouteImport.update({
+  id: '/schema',
+  path: '/schema',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ServicesRoute = ServicesRouteImport.update({
+  id: '/services',
+  path: '/services',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TokenSignerRoute = TokenSignerRouteImport.update({
+  id: '/token-signer',
+  path: '/token-signer',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -136,46 +136,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/token-signer': {
-      id: '/token-signer'
-      path: '/token-signer'
-      fullPath: '/token-signer'
-      preLoaderRoute: typeof TokenSignerRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/services': {
-      id: '/services'
-      path: '/services'
-      fullPath: '/services'
-      preLoaderRoute: typeof ServicesRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/schema': {
-      id: '/schema'
-      path: '/schema'
-      fullPath: '/schema'
-      preLoaderRoute: typeof SchemaRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/peers': {
-      id: '/peers'
-      path: '/peers'
-      fullPath: '/peers'
-      preLoaderRoute: typeof PeersRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/mcp': {
-      id: '/mcp'
-      path: '/mcp'
-      fullPath: '/mcp'
-      preLoaderRoute: typeof McpRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/injectors': {
-      id: '/injectors'
-      path: '/injectors'
-      fullPath: '/injectors'
-      preLoaderRoute: typeof InjectorsRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/deprecated': {
@@ -185,11 +150,46 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof DeprecatedRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/injectors': {
+      id: '/injectors'
+      path: '/injectors'
+      fullPath: '/injectors'
+      preLoaderRoute: typeof InjectorsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/mcp': {
+      id: '/mcp'
+      path: '/mcp'
+      fullPath: '/mcp'
+      preLoaderRoute: typeof McpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/peers': {
+      id: '/peers'
+      path: '/peers'
+      fullPath: '/peers'
+      preLoaderRoute: typeof PeersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/schema': {
+      id: '/schema'
+      path: '/schema'
+      fullPath: '/schema'
+      preLoaderRoute: typeof SchemaRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services': {
+      id: '/services'
+      path: '/services'
+      fullPath: '/services'
+      preLoaderRoute: typeof ServicesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/token-signer': {
+      id: '/token-signer'
+      path: '/token-signer'
+      fullPath: '/token-signer'
+      preLoaderRoute: typeof TokenSignerRouteImport
       parentRoute: typeof rootRouteImport
     }
   }
